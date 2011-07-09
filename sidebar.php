@@ -1,6 +1,8 @@
+<?php $options = get_option('gallant_v2_theme_options'); ?>
+
 <div class="secondary-content">
 	<div class="section ad">
-		<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/content/ad-square.jpg" alt="" height="250" width="300" /></a>
+		<?php echo $options['ad1']; ?>
 	</div>
 	
 	<div class="section">
@@ -18,7 +20,9 @@
 	</div>
 
 	<div class="section">
-		FACEBOOK THING
+		<div class="like-box">
+			<fb:like-box href="http://www.facebook.com/thegallantlife" width="300" colorscheme="dark" show_faces="true" border_color="#000000" stream="false" header="false"></fb:like-box>
+		</div>
 	</div>
 	
 	<div class="section">
@@ -60,15 +64,15 @@
 	</div>
 	
 	<div class="section ad">
-		<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/content/ad-square.jpg" alt="" height="250" width="300" /></a>
+		<?php echo $options['ad2']; ?>
 	</div>
 	
 	<div class="section ad">
-		<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/content/ad-write-for-us.png" alt="Want to write for us" height="250" width="300" /></a>
+		<a href="mailto:info@thegallant.com"><img src="<?php bloginfo('template_directory'); ?>/images/content/ad-write-for-us.png" alt="Want to write for us" height="250" width="300" /></a>
 	</div>
 	
 	<div class="section ad">
-		<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/content/ad-square.jpg" alt="" height="250" width="300" /></a>
+		<?php echo $options['ad3']; ?>
 	</div>
 	
 	<div class="section ad">

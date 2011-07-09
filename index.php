@@ -1,3 +1,4 @@
+<?php $options = get_option('gallant_v2_theme_options'); ?>
 <?php get_header(); ?>
 
 <div class="primary-content">
@@ -53,7 +54,7 @@
 	<?php endif; ?>
 
 	<div class="ad">
-		<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/content/ad-wide.jpg" alt="AD" height="90" width="728" /></a>
+		<?php echo $options['ad4']; ?>
 	</div>
 </div>
 

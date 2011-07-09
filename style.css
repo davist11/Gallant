@@ -623,6 +623,16 @@ button {
 	.secondary-content .section:last-child {
 		margin-bottom: 0;
 	}
+	.secondary-content .like-box {
+	  border: 2px solid #000;
+	  overflow: hidden;
+	  position: relative;
+	}
+	.secondary-content .like-box iframe {
+	  left: -1px;
+	  position: relative;
+	  top: -1px;
+	}
 	.secondary-content .section h3 {
 		border-bottom: 2px dotted #fff;
 		color: #00aeef;

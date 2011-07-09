@@ -17,7 +17,7 @@
 	<?php if(is_single()): ?>
 		<script src="https://apis.google.com/js/plusone.js"></script>
 		<script src="http://platform.twitter.com/widgets.js"></script>
-		<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
 	<?php endif; ?>
+	<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
 </body>
 </html>

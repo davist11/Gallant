@@ -1,3 +1,4 @@
+<?php $options = get_option('gallant_v2_theme_options'); ?>
 <?php get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -27,7 +28,7 @@
 		<?php if(function_exists('related_posts')) related_posts(); ?>
 		
 		<div class="ad ad-wide">
-			<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/content/ad-wide.jpg" alt="AD" height="90" width="728"></a>
+			<?php echo $options['ad4']; ?>
 		</div>
 		
 		<?php comments_template(); ?>
