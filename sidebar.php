@@ -12,16 +12,16 @@
 				<li><a href="http://www.facebook.com/thegallantlife" class="alt facebook">Facebook</a></li>
 				<li><a href="http://twitter.com/thegallantlife" class="alt twitter">Twitter</a></li>
 				<li><a href="http://feeds.feedburner.com/TheGallant" class="alt rss">RSS</a></li>
-				<li><a href="#" class="alt vimeo">Vimeo</a></li>
-				<li><a href="#" class="alt youtube">YouTube</a></li>
-				<li><a href="#" class="alt fancy">Fancy</a></li>
+				<li><a href="http://vimeo.com/user4871259" class="alt vimeo">Vimeo</a></li>
+				<li><a href="http://www.youtube.com/thegallantlife" class="alt youtube">YouTube</a></li>
+				<li><a href="http://thefancy.com/thegallant" class="alt fancy">Fancy</a></li>
 			</ul>
 		</div>
 	</div>
 
 	<div class="section">
 		<div class="like-box">
-			<fb:like-box href="http://www.facebook.com/thegallantlife" width="300" colorscheme="dark" show_faces="true" border_color="#000000" stream="false" header="false"></fb:like-box>
+			<fb:like-box href="http://www.facebook.com/thegallantlife" width="300" show_faces="true" stream="false" header="false"></fb:like-box>
 		</div>
 	</div>
 	
