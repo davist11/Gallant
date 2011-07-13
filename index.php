@@ -14,6 +14,7 @@
 				<?php while (have_posts()) : the_post(); ?>
 					
 					<?php
+						$excludeFeature .= $post->ID . ',';
 						$featured_image = get_post_meta($post->ID, 'featured_image', true);
 						$count++;
 					?>
