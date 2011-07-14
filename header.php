@@ -3,7 +3,6 @@
 <!--[if IE 7]><html class="no-js ie ie7 lte8 lte7" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"><![endif]--> 
 <!--[if IE 8]><html class="no-js ie ie8 lte8" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"><![endif]--> 
 <!--[if !IE]><!--><html class="no-js" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"><!--<![endif]-->
-<html> 
 <head>
 	<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?> | Online magazine for
 	men&rsquo;s fashion, sneakers, music, technology, streetwear.</title>
