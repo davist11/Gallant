@@ -24,7 +24,7 @@
 	
 	<div id="header">
 		<div class="container">
-			<?php if(is_front_page()) : ?>
+			<?php if($_SERVER['REQUEST_URI'] === '/') : ?>
 				<h1 id="logo" class="alt">The Gallant</h1>
 			<?php else : ?>
 				<a href="/" id="logo" class="alt">The Gallant</a>
