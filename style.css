@@ -720,6 +720,9 @@ button {
 	.ad .inline {
 	 	display: inline;
 	}
+	.ad-half {
+		margin-bottom: 10px;
+	}
 	/* @end */
 	
 	/* @group -contact form */

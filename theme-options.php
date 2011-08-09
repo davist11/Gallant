@@ -18,55 +18,9 @@ function theme_options_add_page() {
 }
 
 /**
- * Create arrays for our select and radio options
- */
-$select_options = array(
-	'0' => array(
-		'value' =>	'0',
-		'label' => __( 'Zero', 'gallant_v2theme' )
-	),
-	'1' => array(
-		'value' =>	'1',
-		'label' => __( 'One', 'gallant_v2theme' )
-	),
-	'2' => array(
-		'value' => '2',
-		'label' => __( 'Two', 'gallant_v2theme' )
-	),
-	'3' => array(
-		'value' => '3',
-		'label' => __( 'Three', 'gallant_v2theme' )
-	),
-	'4' => array(
-		'value' => '4',
-		'label' => __( 'Four', 'gallant_v2theme' )
-	),
-	'5' => array(
-		'value' => '3',
-		'label' => __( 'Five', 'gallant_v2theme' )
-	)
-);
-
-$radio_options = array(
-	'yes' => array(
-		'value' => 'yes',
-		'label' => __( 'Yes', 'gallant_v2theme' )
-	),
-	'no' => array(
-		'value' => 'no',
-		'label' => __( 'No', 'gallant_v2theme' )
-	),
-	'maybe' => array(
-		'value' => 'maybe',
-		'label' => __( 'Maybe', 'gallant_v2theme' )
-	)
-);
-
-/**
  * Create the options page
  */
 function theme_options_do_page() {
-	global $select_options, $radio_options;
 
 	if ( ! isset( $_REQUEST['settings-updated'] ) )
 		$_REQUEST['settings-updated'] = false;
@@ -114,6 +68,22 @@ function theme_options_do_page() {
 					</th>
 					<td>
 						<textarea id="sample_theme_options[ad4]" class="large-text" cols="50" rows="8" name="gallant_v2_theme_options[ad4]"><?php echo esc_textarea( $options['ad4'] ); ?></textarea>	
+					</td>
+				</tr>
+				<tr valign="top">
+					<th scope="row">
+						<label class="description" for="gallant_v2_theme_options[ad5]"><?php _e( 'Left Half Sidebar Ad', 'gallant_v2theme' ); ?></label>
+					</th>
+					<td>
+						<textarea id="sample_theme_options[ad5]" class="large-text" cols="50" rows="8" name="gallant_v2_theme_options[ad5]"><?php echo esc_textarea( $options['ad5'] ); ?></textarea>	
+					</td>
+				</tr>
+				<tr valign="top">
+					<th scope="row">
+						<label class="description" for="gallant_v2_theme_options[ad6]"><?php _e( 'Right Half Sidebar Ad', 'gallant_v2theme' ); ?></label>
+					</th>
+					<td>
+						<textarea id="sample_theme_options[ad6]" class="large-text" cols="50" rows="8" name="gallant_v2_theme_options[ad6]"><?php echo esc_textarea( $options['ad6'] ); ?></textarea>	
 					</td>
 				</tr>
 				
