@@ -56,22 +56,6 @@ function theme_options_do_page() {
 				</tr>
 				<tr valign="top">
 					<th scope="row">
-						<label class="description" for="gallant_v2_theme_options[ad3]"><?php _e( 'Bottom Sidebar Ad', 'gallant_v2theme' ); ?></label>
-					</th>
-					<td>
-						<textarea id="sample_theme_options[ad3]" class="large-text" cols="50" rows="8" name="gallant_v2_theme_options[ad3]"><?php echo esc_textarea( $options['ad3'] ); ?></textarea>	
-					</td>
-				</tr>
-				<tr valign="top">
-					<th scope="row">
-						<label class="description" for="gallant_v2_theme_options[ad4]"><?php _e( 'Bottom Horizontal Ad', 'gallant_v2theme' ); ?></label>
-					</th>
-					<td>
-						<textarea id="sample_theme_options[ad4]" class="large-text" cols="50" rows="8" name="gallant_v2_theme_options[ad4]"><?php echo esc_textarea( $options['ad4'] ); ?></textarea>	
-					</td>
-				</tr>
-				<tr valign="top">
-					<th scope="row">
 						<label class="description" for="gallant_v2_theme_options[ad5]"><?php _e( 'Left Half Sidebar Ad', 'gallant_v2theme' ); ?></label>
 					</th>
 					<td>
@@ -86,7 +70,22 @@ function theme_options_do_page() {
 						<textarea id="sample_theme_options[ad6]" class="large-text" cols="50" rows="8" name="gallant_v2_theme_options[ad6]"><?php echo esc_textarea( $options['ad6'] ); ?></textarea>	
 					</td>
 				</tr>
-				
+				<tr valign="top">
+					<th scope="row">
+						<label class="description" for="gallant_v2_theme_options[ad3]"><?php _e( 'Bottom Sidebar Ad', 'gallant_v2theme' ); ?></label>
+					</th>
+					<td>
+						<textarea id="sample_theme_options[ad3]" class="large-text" cols="50" rows="8" name="gallant_v2_theme_options[ad3]"><?php echo esc_textarea( $options['ad3'] ); ?></textarea>	
+					</td>
+				</tr>
+				<tr valign="top">
+					<th scope="row">
+						<label class="description" for="gallant_v2_theme_options[ad4]"><?php _e( 'Bottom Horizontal Ad', 'gallant_v2theme' ); ?></label>
+					</th>
+					<td>
+						<textarea id="sample_theme_options[ad4]" class="large-text" cols="50" rows="8" name="gallant_v2_theme_options[ad4]"><?php echo esc_textarea( $options['ad4'] ); ?></textarea>	
+					</td>
+				</tr>
 			</table>
 
 			<p class="submit">
