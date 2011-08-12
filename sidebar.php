@@ -68,16 +68,18 @@
 	</div>
 	
 	<div class="section ad">
-		<?php if(isset($options['ad5'])): ?>
-			<div class="ad-half left">
-				<?php echo $options['ad5']; ?>
-			</div>
-		<?php endif; ?>
+		<?php if($_SERVER['REQUEST_URI'] === '/') : ?>
+			<?php if(isset($options['ad5'])): ?>
+				<div class="ad-half left">
+					<?php echo $options['ad5']; ?>
+				</div>
+			<?php endif; ?>
 		
-		<?php if(isset($options['ad6'])): ?>
-			<div class="ad-half right">
-				<?php echo $options['ad6']; ?>
-			</div>
+			<?php if(isset($options['ad6'])): ?>
+				<div class="ad-half right">
+					<?php echo $options['ad6']; ?>
+				</div>
+			<?php endif; ?>
 		<?php endif; ?>
 		
 		<a href="mailto:info@thegallant.com" class="clearing"><img src="<?php bloginfo('template_directory'); ?>/images/content/ad-write-for-us.png" alt="Want to write for us" height="140" width="300" /></a>
